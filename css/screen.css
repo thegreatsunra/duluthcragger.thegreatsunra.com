@@ -1,0 +1,168 @@
+/*
+Styles for Duluth Urban Cragger
+Launched August, 2007
+Copyright (c) 2007 Laura Petersen
+*/
+
+
+/* ===Global Styles=== */
+/* ------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	background: #a4a26b;
+	text-align: center;
+	/* background: #2c261f url(/img/body-bg-01.gif) 0 0 repeat;
+	color: #dbd2c2; */
+	font-size: small;
+	font-family: helvetica, verdana, arial, sans-serif;
+	line-height: 1.2;
+	}
+
+a {
+	/* color: #a0a3c0; */
+	text-decoration: none;
+}
+	
+a:visited {}
+
+a:hover {
+	/* color: #ddd; */
+	text-decoration: none;
+}
+
+a img {
+	border: 0;
+}
+
+p, li, dt, dd {
+	font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 200%;
+}
+	
+h2 {
+	font-size: 170%;
+}
+	
+h3 {
+	font-size: 150%;
+}
+
+h4 {
+	font-size: 130%;
+}
+	
+h5 {
+	font-size: 120%;
+}
+	
+h6 {
+	font-size: 90%;
+}
+
+
+
+
+/* ===Layout Styles=== */
+/* ------------------------------------------- */
+
+div#wrap {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin-top: -290px;
+	text-align: center;
+	min-width: 655px;
+}
+
+div#w2 {
+	width: 655px;
+	position: relative;
+	text-align: center;
+	height: 580px;
+	margin: 0 auto 0 auto;
+}
+
+div#header {
+	position: absolute;
+	top: 350px;
+	left: 40px;
+	background: transparent url(/img/header-bg-01.gif) 0 0 no-repeat;
+	height: 156px;
+	width: 555px;
+	text-indent: -5000px;
+}
+
+div#splash {
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+div#nav {
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+div#content {
+	position: absolute;
+	top: 540px;
+	left: 0;
+}
+
+p#download {
+	padding-left: 240px;
+	display: block;
+}
+
+p#download a {
+	text-indent: -5000px;
+	background: url(/img/download-01.gif) 0 0 no-repeat;
+	width: 168px;
+	height: 32px;
+	display: block;
+}
+
+p#download a:hover {
+	background-position: 0 -100px;
+}
+
+
+div#nav a {
+	text-indent: -5000px;
+	background: url(/img/questions-01.gif) 0 0 no-repeat;
+	width: 64px;
+	height: 14px;
+	display: block;
+}
+
+div#nav a:hover {
+	background-position: 0 -100px;
+}
+
+
+/* ===Generic Formatting Styles=== */
+/* ------------------------------------------- */
+
+.left {text-align: left;}
+.right {text-align: right;}
+.center {text-align: center;}
+
+.hide {display: none;}
+.cloak {visibility: hidden;}
+.clear {clear: both;}
+.clearL {clear: left;}
+.clearR {clear: right;}
